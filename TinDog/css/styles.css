@@ -1,0 +1,197 @@
+body {
+    font-family: 'Montserrat';
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.container-fluid {
+    padding: 3% 14% 7%;
+}
+
+
+
+.title {
+    /* font-family: 'Montserrat'; */
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    margin: 0 1.125rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+
+}
+
+.download-button {
+    margin: 5% 3%;
+    margin-left: 0;
+}
+
+.bi {
+    margin-right: 5px;
+}
+
+.image-wrap {
+    position: relative;
+}
+
+.title-img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    padding: 2%;
+    right: 30%;
+}
+
+#features {
+    padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.col-features {
+    text-align: center;
+    padding: 4%;
+}
+
+.f-heading {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.f-icon {
+    color: #ef8172;
+    font-size: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.f-icon:hover {
+    color: #ff4c68;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.t-heading {
+    font-family: 'Montaga';
+    color: #fff;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.t-image {
+    border-radius: 100%;
+    width: 9%;
+    margin: 22px;
+}
+
+em {
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    /* padding: 7% 15%; */
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 12%;
+    margin: 20px 20px 40px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 6% 15%;
+}
+
+.card-col {
+    /* margin-bottom: 5%; */
+    padding: 3% 2%;
+}
+
+.pricing-btn {
+    width: 100%;
+}
+
+.card-title {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 14% 2%;
+}
+
+.cta-head {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#footer {
+    text-align: center;
+    padding: 4% 15%;
+}
+
+#footer p {
+    color: #8f8f8f;
+}
+
+#footer i {
+    padding: 1%;
+}
+
+@media(max-width: 995px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
